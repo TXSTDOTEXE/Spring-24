@@ -16,7 +16,6 @@ string getRandomWord() {
 
    // Create an array with 5 words 
     
-
     srand(time(0)); // generates a random seed/number
     int randomIndex = rand() % 5;
 
@@ -31,7 +30,7 @@ string initializeDisplay(int length) {
 // Checks if the user's guess is in the random word and updates the display
 bool updateDisplay(string& display, const string& word, char guess) {
     
-    /*For every word in the string, check if it matches the user's
+    /* For every word in the string, check if it matches the user's
     guess. Update display and other variables as needed.  
     */
    
@@ -53,9 +52,9 @@ int main() {
       cout << "Enter a letter: ";
       cin >> guess;
 
-        // Implement if the user's guess is correct 
+      // Implement if the user's guess is correct 
 
-        // Implement if the the user guessed the word  
+      // Implement if the the user guessed the word  
    }
 
    cout << "Try again next time! The correct word was: " << selectedWord << endl;
