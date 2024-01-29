@@ -1,5 +1,5 @@
 /* The objective of this mini project is to collaborate and learn. 
-The provided code is a starting point, incomplete, and likely contains bugs. 
+The provided code is a starting point and its purpose is to help start the process. 
 Your task is to fill in the missing code and implement the missing pieces
 Feel free to modify the code extensively.
 Don't be afraid to use the internet or ask for help.
@@ -16,7 +16,6 @@ string getRandomWord() {
 
    // Create an array with 5 words 
     
-
     srand(time(0)); // generates a random seed/number
     int randomIndex = rand() % 5;
 
@@ -31,7 +30,7 @@ string initializeDisplay(int length) {
 // Checks if the user's guess is in the random word and updates the display
 bool updateDisplay(string& display, const string& word, char guess) {
     
-    /*For every word in the string, check if it matches the user's
+    /* For every word in the string, check if it matches the user's
     guess. Update display and other variables as needed.  
     */
    
@@ -53,9 +52,9 @@ int main() {
       cout << "Enter a letter: ";
       cin >> guess;
 
-        // Implement if the user's guess is correct 
+      // Implement if the user's guess is correct 
 
-        // Implement if the the user guessed the word  
+      // Implement if the the user guessed the word  
    }
 
    cout << "Try again next time! The correct word was: " << selectedWord << endl;
